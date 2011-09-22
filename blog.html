@@ -1,0 +1,9 @@
+---
+layout: default
+title: Блог
+---
+<h1>Блог</h1>
+{% for post in site.posts %}
+	<h3><span class="post-date">{{ post.date | date_to_string }}</span> &raquo; <a class="post-title" href="{{ post.url }}">{{ post.title }}</a></h3>
+	<div class="post-preview-text">{{ post.content | strip_html | truncatewords: 30 }}</div>
+{% endfor %}
