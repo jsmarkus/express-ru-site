@@ -1,0 +1,7 @@
+---
+layout: post
+title: Переход на Jekyll
+---
+
+Сайт собран с помощью [Jekyll](https://github.com/mojombo/jekyll).
+
